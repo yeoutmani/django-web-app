@@ -14,4 +14,7 @@
         J'ai..
         {% if bands|length < 5 %} peu de {% elif bands|length < 10 %} quelques {% else %} beaucoup de {% endif %} groupes
             préférés. </p>
+
+    <p>L'année en cours est : {% now "Y" %}</p>
+
 {% endblock %}
